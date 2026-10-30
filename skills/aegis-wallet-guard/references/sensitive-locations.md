@@ -58,3 +58,4 @@ When scanning repositories or build directories:
    - VS Code / Cursor: `%APPDATA%\Code\User\History\` and unsaved editor buffers.
 5. **Git Diffs & Commit History**:
    - Accidental commits containing keys pushed and then reverted still exist in Git history unless purged with `git filter-repo`.
+

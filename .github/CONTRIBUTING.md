@@ -47,8 +47,8 @@ aegis-wallet-shield/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/project-aegis/aegis-wallet-shield.git
-   cd aegis-wallet-shield
+   git clone https://github.com/SoupySol/aegis.git
+   cd aegis
    ```
 
 2. **Install extension dependencies**:

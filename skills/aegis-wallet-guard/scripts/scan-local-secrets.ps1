@@ -112,3 +112,4 @@ if ($findings.Count -eq 0) {
     Write-Host "  2. Run Aegis Clip Guard (aegis-clipguard.exe) to purge Notepad TabState and Win+V history."
     Write-Host "  3. Remove plaintext keys from .env/config files and add them to .gitignore."
 }
+

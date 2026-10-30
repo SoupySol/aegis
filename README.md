@@ -141,8 +141,8 @@ No security tool covers 100% of threats. Here is what Aegis catches and where it
 ## Quick Start (60 Seconds)
 
 ```bat
-git clone https://github.com/SoupySol/SoupySol.git
-cd SoupySol
+git clone https://github.com/SoupySol/aegis.git
+cd aegis
 build.bat
 ```
 

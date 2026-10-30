@@ -77,7 +77,7 @@ Everything is open source, local-only, and ships as two isolated tools with zero
 2. Standalone Windows Clip Guard (0 network code, compiles in 2 seconds with Windows' built-in `csc.exe`)
 
 Check your `TabState` folder, stay safe out there, and inspect the code yourself:
-https://github.com/SoupySol/SoupySol
+https://github.com/SoupySol/aegis
 
 ---
 

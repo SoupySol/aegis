@@ -132,3 +132,4 @@ For deep-dive specifications included with this skill, see:
 - [`references/rules-specification.md`](references/rules-specification.md) — Comprehensive technical table of all 20+ Aegis threat rules.
 - [`references/sensitive-locations.md`](references/sensitive-locations.md) — Exact file paths and cache behaviors on Windows and Linux.
 - [`scripts/scan-local-secrets.ps1`](scripts/scan-local-secrets.ps1) — Standalone PowerShell scanner for offline secret detection.
+
