@@ -1,0 +1,36 @@
+{
+  "name": "aegis-extension",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aegis Browser Guard: local-only wallet safety extension for Solana traders (clipboard guard, paste guard, transaction review).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:spike": "node scripts/build-spike.mjs",
+    "spike:e2e": "node scripts/build-spike.mjs && node spikes/phase0/e2e-spike.mjs",
+    "test": "vitest run",
+    "test:e2e": "node scripts/build.mjs && node tests/e2e/e2e.mjs",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.9.0",
+    "@scure/base": "^1.2.0",
+    "@scure/bip39": "^1.6.0"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.99.0",
+    "@types/chrome": "^0.0.300",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.64.1",
+    "typescript": "^5.6.0",
+    "vitest": "^5.0.5"
+  },
+  "overrides": {
+    "stream-json": "^3.8.0",
+    "jayson": {
+      "uuid": "^11.1.1"
+    }
+  }
+}

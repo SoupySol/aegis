@@ -1,0 +1,18 @@
+<!doctype html>
+<!--
+  offscreen.html
+  PURPOSE:  Extension-internal offscreen document hosting the clipboard poller
+            and countdown timer (MV3 service workers sleep between events).
+  ACCESS:   clipboardRead / clipboardWrite via offscreen.js.
+  NEVER:    No network, no storage, never renders user-visible content.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aegis Clipboard Guard</title>
+  </head>
+  <body>
+    <textarea id="buf" aria-hidden="true"></textarea>
+    <script src="offscreen.js" type="module"></script>
+  </body>
+</html>

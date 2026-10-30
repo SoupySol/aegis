@@ -1,0 +1,103 @@
+<!doctype html>
+<!--
+  test-dapp.html
+  PURPOSE:  Local mock Wallet Standard wallet + test dApp used by tests/e2e/e2e.mjs
+            to verify Aegis Wallet Shield end-to-end without real wallets or
+            external network traffic.
+  ACCESS:   Localhost test harness only.
+  NEVER:    No real keys, no external scripts.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aegis E2E Test dApp</title>
+    <script>
+      // ---- Mock Wallet Standard Wallet (uses #private field to test Proxy binding) ----
+      window.__walletCalls = [];
+      class MockStandardWallet {
+        #secretInternalState = 'intact';
+        get name() {
+          return 'MockWallet';
+        }
+        get version() {
+          return '1.0.0';
+        }
+        get chains() {
+          return ['solana:mainnet'];
+        }
+        get accounts() {
+          return [];
+        }
+        get features() {
+          const self = this;
+          return {
+            'standard:connect': {
+              version: '1.0.0',
+              connect: async () => {
+                if (self.#secretInternalState !== 'intact') throw new Error('Broken private field');
+                window.__walletCalls.push('connect');
+                return { accounts: [] };
+              },
+            },
+            'solana:signTransaction': {
+              version: '1.0.0',
+              supportedTransactionVersions: ['legacy', 0],
+              signTransaction: async (...inputs) => {
+                if (self.#secretInternalState !== 'intact') throw new Error('Broken private field');
+                window.__walletCalls.push('signTransaction');
+                return inputs.map((i) => ({ signedTransaction: i.transaction }));
+              },
+            },
+            'solana:signMessage': {
+              version: '1.0.0',
+              signMessage: async (...inputs) => {
+                if (self.#secretInternalState !== 'intact') throw new Error('Broken private field');
+                window.__walletCalls.push('signMessage');
+                return inputs.map((i) => ({ signedMessage: i.message, signature: new Uint8Array(64) }));
+              },
+            },
+          };
+        }
+      }
+
+      const mockWallet = new MockStandardWallet();
+      const walletCallback = ({ register }) => register(mockWallet);
+      window.addEventListener('wallet-standard:app-ready', ({ detail }) => detail.register(mockWallet));
+      window.dispatchEvent(new CustomEvent('wallet-standard:register-wallet', { detail: walletCallback }));
+    </script>
+  </head>
+  <body>
+    <h1>Aegis E2E Harness</h1>
+    <input id="importField" type="text" placeholder="Paste test target" style="width: 560px;" />
+
+    <script>
+      window.__wallets = [];
+      const register = (...wallets) => {
+        window.__wallets.push(...wallets);
+        return () => {};
+      };
+      window.addEventListener('wallet-standard:register-wallet', ({ detail: callback }) => callback({ register }));
+      window.dispatchEvent(new CustomEvent('wallet-standard:app-ready', { detail: Object.freeze({ register }) }));
+
+      window.__pasteSeen = [];
+      document.getElementById('importField').addEventListener('paste', (e) => {
+        const text = e.clipboardData ? e.clipboardData.getData('text/plain') : '';
+        window.__pasteSeen.push(text ? 'page-saw-paste' : 'empty');
+      });
+
+      window.requestSign = async (txBytesArray, walletAddress) => {
+        const w = window.__wallets[0];
+        const txBytes = new Uint8Array(txBytesArray);
+        try {
+          const res = await w.features['solana:signTransaction'].signTransaction({
+            transaction: txBytes,
+            account: { address: walletAddress || '11111111111111111111111111111111' },
+          });
+          return 'signed:' + res.length;
+        } catch (e) {
+          return 'rejected:' + (e && e.code);
+        }
+      };
+    </script>
+  </body>
+</html>

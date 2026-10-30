@@ -1,0 +1,12 @@
+node_modules/
+dist/
+bin/
+obj/
+*.exe
+*.log
+.env
+.env.*
+!.env.example
+# Never commit local settings (RPC keys live in the extension's local Options page)
+*.local.json
+

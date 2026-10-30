@@ -1,0 +1,59 @@
+name: Feature Request
+description: Propose an idea or enhancement for Project Aegis
+title: "[FEATURE]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature for Project Aegis!
+        
+        > [!NOTE]
+        > Aegis maintains strict architectural boundaries: zero involuntary network calls, 100% offline desktop helper, zero `nativeMessaging`, zero `eval`, and minimal runtime dependencies. Features must preserve these core security invariants.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Target Component
+      description: Which part of Aegis does this enhancement apply to?
+      options:
+        - "Aegis Browser Guard (Chrome / Brave / Edge Extension)"
+        - "Aegis Clip Guard (Windows Desktop Cleaner / Scanner)"
+        - "Rules Engine & Transaction Simulation"
+        - "Developer Experience & CI/CD"
+        - "Documentation & Educational Specs"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What user problem, attack vector, or limitation does this feature address?
+      placeholder: "When trading on pump.fun / Raydium, I noticed that..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution & UX
+      description: Describe the solution you would like to see implemented.
+    validations:
+      required: true
+
+  - type: textarea
+    id: security-considerations
+    attributes:
+      label: Security & Privacy Considerations
+      description: How does this proposal uphold Aegis's zero-network invariants, offline guarantees, and memory hygiene?
+      placeholder: "This feature runs entirely locally and requires no external API or native permissions..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or workarounds you have considered.

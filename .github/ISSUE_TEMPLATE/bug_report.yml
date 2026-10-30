@@ -1,0 +1,80 @@
+name: Bug Report
+description: Report a reproducible bug or unexpected behavior in Aegis
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug!
+        
+        > [!CAUTION]
+        > If you are reporting a **security vulnerability or bypass**, please do **NOT** submit a public issue.
+        > Please report it privately via [GitHub Security Advisories](../../security/advisories/new) or see [.github/SECURITY.md](../SECURITY.md).
+        > **NEVER paste real private keys, seed phrases, or credentials anywhere in this issue.**
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Component
+      description: Which part of Project Aegis is experiencing the issue?
+      options:
+        - "Aegis Browser Guard (Chrome / Brave / Edge Extension)"
+        - "Aegis Clip Guard (Windows Desktop Cleaner / Scanner)"
+        - "Build & Verification Automation (PowerShell / Node)"
+        - "Documentation / Architectural Specs"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the problem is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the behavior using dummy/synthetic test accounts only.
+      placeholder: |
+        1. Open Chrome with Aegis Browser Guard loaded
+        2. Navigate to test dApp '...'
+        3. Trigger transaction / copy dummy text '...'
+        4. Observe unexpected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen according to Aegis specs?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually occurred instead?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Information
+      description: Operating System, browser version, and Aegis version.
+      placeholder: "Windows 11 / Brave 1.68 / Aegis Extension v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context / Non-Sensitive Logs
+      description: Paste any relevant console output or diagnostic logs. Ensure all addresses and keys are synthetic/testnet only.

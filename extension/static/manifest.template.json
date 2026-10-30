@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "Aegis Wallet Shield",
+  "version": "0.1.0",
+  "description": "Local Solana wallet protection. Simulates transactions, flags approvals and fake domains, blocks secret pastes, and clears copied keys.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "offscreen",
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications",
+    "storage",
+    "alarms",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Aegis Wallet Shield",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["inpage.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_about_blank": true,
+      "world": "MAIN"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

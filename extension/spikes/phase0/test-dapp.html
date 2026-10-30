@@ -1,0 +1,77 @@
+<!doctype html>
+<!--
+  Aegis Phase 0 test dApp.
+  A MOCK Wallet Standard wallet + a fake "dApp" that requests signatures,
+  used to verify the inpage hooks automatically. No real wallet, no real keys,
+  no network.
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Aegis test dApp</title>
+    <script>
+      // ---- Mock wallet (registers like Phantom does via Wallet Standard) ----
+      window.__walletCalls = [];
+      class MockWallet {
+        #secretInternalState = 'mock'; // private field: verifies the Proxy keeps #fields working
+        get name() { return 'MockWallet'; }
+        get version() { return '1.0.0'; }
+        get chains() { return ['solana:mainnet']; }
+        get accounts() { return []; }
+        get features() {
+          const self = this;
+          return {
+            'standard:connect': { version: '1.0.0', connect: async () => { window.__walletCalls.push('connect'); return { accounts: [] }; } },
+            'solana:signTransaction': {
+              version: '1.0.0',
+              supportedTransactionVersions: ['legacy', 0],
+              signTransaction: async (...inputs) => {
+                self.#secretInternalState; // throws if `this`/private fields are broken
+                window.__walletCalls.push('signTransaction');
+                return inputs.map((i) => ({ signedTransaction: i.transaction }));
+              },
+            },
+            'solana:signMessage': {
+              version: '1.0.0',
+              signMessage: async (...inputs) => { window.__walletCalls.push('signMessage'); return inputs.map((i) => ({ signedMessage: i.message, signature: new Uint8Array(64) })); },
+            },
+          };
+        }
+      }
+      const mockWallet = new MockWallet();
+
+      // Wallet side of the Wallet Standard handshake
+      const walletCallback = ({ register }) => register(mockWallet);
+      window.addEventListener('wallet-standard:app-ready', ({ detail }) => detail.register(mockWallet));
+      window.dispatchEvent(new CustomEvent('wallet-standard:register-wallet', { detail: walletCallback }));
+    </script>
+  </head>
+  <body>
+    <h1>Aegis test dApp</h1>
+    <input id="importField" placeholder="paste here" style="width: 600px" />
+    <script>
+      // ---- dApp side of the Wallet Standard handshake ----
+      window.__wallets = [];
+      const register = (...wallets) => { window.__wallets.push(...wallets); return () => {}; };
+      window.addEventListener('wallet-standard:register-wallet', ({ detail: callback }) => callback({ register }));
+      window.dispatchEvent(new CustomEvent('wallet-standard:app-ready', { detail: Object.freeze({ register }) }));
+
+      window.__pasteSeen = [];
+      document.getElementById('importField').addEventListener('paste', (e) => {
+        window.__pasteSeen.push((e.clipboardData && e.clipboardData.getData('text/plain')) ? 'page-saw-paste' : 'empty');
+      });
+
+      window.requestSign = async () => {
+        const w = window.__wallets[0];
+        const fake = new Uint8Array(200);
+        try {
+          const res = await w.features['solana:signTransaction'].signTransaction({ transaction: fake, account: {} });
+          return 'signed:' + res.length;
+        } catch (e) {
+          return 'rejected:' + (e && e.code);
+        }
+      };
+    </script>
+  </body>
+</html>
+

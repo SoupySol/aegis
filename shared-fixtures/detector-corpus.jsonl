@@ -1,0 +1,227 @@
+{"label":"secret-base58","text":"31daSBWRTdgdJ1qdrhHy3846TWC4DQnqE3ptJcKZtT96PuzHrejFTEWZWAdxHYBme7F1fsL7QUhLap8SRsK9HHCR","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"9PHx…GeWh"}]}
+{"label":"secret-base58","text":"23oV2XZeQVqGaCdNS7ymMqoLV9LAdv9Uh6kykXCJzeuogsERDEhisWJZqcT3YyjURfzvjfNYYm442tzGCUxrVBwC","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"8rFo…YaQn"}]}
+{"label":"secret-base58","text":"61bmteYJpMokxmKfHTin8dHtfHVr5q55TxaeY3QHDxCZWJbrT3tQLNKae9GduWQ6BCtj7yHfFheM5AapPqH3kH8n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"EUXi…fJAE"}]}
+{"label":"secret-base58","text":"3KiEdJuQvMH1MkQqkpQAkiNGYNywV1KpKqQbDuVoVYkbxXzsWfWUJmVtaHP1am7DUTX2pyhTQrUQhLZCiSWWWNtK","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"3ewd…fse3"}]}
+{"label":"secret-base58","text":"5E9ZzL81DddUYfHftX5MwH7RdoY33xowoDtCEXUjYfZff1q6zR6KqqNcMhQqbm3E8gEzYvckw1S6oCQ5tPgtFPSJ","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"Fuh1…1egi"}]}
+{"label":"secret-base58","text":"2PQaJfCoXxBL8bvgRkZmhw88PtZWAMPuLPY17cvBLZq1a9Z4jXfyZsFND47Gv9xCM5M435wofkieechXZvDAKXiv","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"5ZfV…THGJ"}]}
+{"label":"secret-base58","text":"4d9gQiTCV2pNkkewtJmvNBmgLFQfWQtQoUtZDrWdHsKkNPtPV3H57s2nyMUvFgcdX1UDZx3ewBpL3KwEoZ4o5uha","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"9865…mCik"}]}
+{"label":"secret-base58","text":"2fNYdw2VdDo8mkeBmLbmv9gpLUGd3q3thjqUQ7F61KfUenx3LsL1EDunKzRjrRyR2Hq8YrL64S2iPXeAnEp3xMKz","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"E3Zn…dWVi"}]}
+{"label":"secret-base58","text":"bQ357ywNuP87ZhKpwgsJE45pdUWvYy6j3u1srzpnu2o5VgR5pUT1TPPe3buLbv7iknrpcD79CfBFge7KtWzVnm4","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"F4s5…PqiN"}]}
+{"label":"secret-base58","text":"2SR5271A9N6WHPYgkQ3er2LSw864xzo1Xdr1KfEzuvH5tUUKaiYbxdkMC2oE3fzoEZuwKcL2567SRipuETPAyb8s","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"2yYW…3LKq"}]}
+{"label":"secret-base58","text":"5uGwvHrhD7WPGyTH2rbyhexcifPymkRuKAiYQriyGXjfevoWYqWbCBGLyjEBVuwhoigeSfewNCRjxfH87jAHGoUK","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"MTgW…rKxB"}]}
+{"label":"secret-base58","text":"32GSeKwXUDR9h5oRYfm5GXoHYfQ9qYXfYiqHayKqTxtY33dXc1PuMQ8hWYSTxcqZvt9w9uDKdsVYn88BT6ReAdde","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"3mG9…4zZz"}]}
+{"label":"secret-base58","text":"3z1QzzcCG68JJGLZvXX9q6PkRxUaiqq8YUbgrdutNG9vuhskYNdTB7gYpMqgWNqFzcwVuzEuuY7iykfjqpsvta2n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"9nyt…7ytN"}]}
+{"label":"secret-base58","text":"4ERDdiD1L4qXvQXvsi7aobNkgDiUbqnUsnZBxmH8rNsx6rQ1oS7rNYnaitJkse1rsFMGVtFRpqWHF6UhJbENmLnw","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"HA1N…VrCK"}]}
+{"label":"secret-base58","text":"2ogC6NjpFQzvWaC5kA2eTg7zuWy7rpd6amcXNpgBjzNFvn83x1CnRk8Zo2VqGGAidjeauoJqqWk1F26TPrruX2Qf","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"6tSh…zFKm"}]}
+{"label":"secret-base58","text":"4pZcz9pLdVgopdJeRs4AiePBV1iJHDs5yKcREZeGxHfZhtob4H2Y83cQfqcTHppf1o36mWrw7L6wMznDS9gGBgkk","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"66Yn…yfDN"}]}
+{"label":"secret-base58","text":"sYzNsYsqcfSXHmk6Fzrz2xrKYs89aWE2r4FmnSCpiZJMEkfRhi4BXuEjbwGFWwHsyNrhvA5Ceou8XbsAbmCoM4b","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"KCCE…9UmV"}]}
+{"label":"secret-base58","text":"3vriRmKhcvb71V2CJ61V6ffcvkWTugnkdJX4iqScbGKatPkHa9NBxWXchnU8ErMZW4TBfCKwHiGbP5C7TBzke3Fb","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"6kVp…RnQu"}]}
+{"label":"secret-base58","text":"5ez6qRPufgiqZ8sGqHTdZWhdFppEbNQazYcyHTWJ6W8H5DdZSytJRaxrTZ7jWydCGZswC9SFxuHJ5iKftdLQ9cMs","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"5Bia…jDG1"}]}
+{"label":"secret-base58","text":"2VzffUp2vkMcgZ4rSooAt5ekGX4w6cFtonhs8JEwjvtaW6AAW3mXRUxw8MgvCmhyDJUrq5wsX9UBLf93H3BnS4R6","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"ECY4…pyEY"}]}
+{"label":"secret-base58","text":"5bw53wBkCydXBXenQqYBDBVLuCFF2eRBAQwkWPdKXwEXtNu98ZQ1TTXKvZEwkASxyGJJPheNhk9TMKj4HoswZZxZ","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"9PV9…6UCd"}]}
+{"label":"secret-base58","text":"KxbGA3pGQAdEqUYuv4rGKgzjoYdL22mRbPVePtHzVovL7gJyKQ3ZAXXn4kEPEUF4h5R8bcVCeQZVZRvNqpkChZw","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"DzLA…eEJ9"}]}
+{"label":"secret-base58","text":"5uBuJCcHQLNjXmkP7BXa6mACFkJZdZYjAR8xJG88yKiDTf6HY7Cjm45TJtTxCiY6YDNdqXQjwA6KAxwyP3XsUZNk","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"4yT4…HC3N"}]}
+{"label":"secret-base58","text":"4GR2mcuBkMCYE68VYrWwXw9onCq3YoXomyUqyTHxrGonSN6HHvHGnbDgkfa2cs6EYo3ji8TzZxDiTzUTDQhUkXe","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"BCAy…Yn84"}]}
+{"label":"secret-base58","text":"427uzmqzjzNwpybJfysxzaTyZgYBGFB46ZXdHBk8TbT6PWStGscK1BzgnShheYYcJCPKaKuqgDwCtLqTAcFxb6Dj","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"5jk8…BCA1"}]}
+{"label":"secret-base58","text":"3zdGB3eQRYcJW6buYZq16oxzr9MjG4N6oCRbeDbWf7d3dQchqNfrHvQxfYCQRrzRS25GiwUJKNevUYJCeT8rTUn9","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"cZuf…Khjb"}]}
+{"label":"secret-base58","text":"spGevfu1SizNC3HqFt8LMcEpRcF3r8mMceDStnWfKgQjndy1f5nzqdagpyVErYsKznQ11Pci8VTVBaXKGRgsUVc","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"Bsei…36te"}]}
+{"label":"secret-base58","text":"3zvxVVBab3YUjAJv8Kjy8AbSRZ3WEaDNyLwPLqnvtUeRZycTSR55PyoSTgmxyZvxACoN41b8FWuhw6ShCCKW2vYK","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"FzG6…X6Hq"}]}
+{"label":"secret-base58","text":"5A18qYb7VyiFvHZAYdPWULD45WEF51yu1nY4ekJwwPtpsmJZTAtnmtoUVtVJqSzmxk3rYZqWY3cuNkeNgkHGvibt","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"BnSk…yNCJ"}]}
+{"label":"secret-base58","text":"kWdHbW6c4TZot16uJVK6uUdRGKfK3WfxKBByyVGD3dGhte7mBdTu8J9cMLsYNpnqkiTja2GoLGuftSK2LAuBPPT","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"GXeu…f1M7"}]}
+{"label":"secret-base58","text":"5wet8bkrRPckBuKU4JDZdvKz12GMFtkUMR3wGSsU8shGGqUrV4Uywmpo4Q8ZLhoediFDUrEfJo5y58qZPQc7W9gN","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"5aAz…zd86"}]}
+{"label":"secret-base58","text":"66AQD6FRoyK5K6xQQZA87wDhvRENCSd1bqFKq7Xx2Mhkh7LdZpVnWx5CVCR6nNdswwcvbEdXV4tf9HtTzCQ4VnsP","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"HTvZ…VN8u"}]}
+{"label":"secret-base58","text":"3RDUPCBiGcgBb4J4dvFgeKu1JMbSVt9CDFZZ363H6xjKERp2RtGej55PKCg1TjpFifmSHpGeWNxSsUSMnKpNd3kx","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"6Gao…bJ8L"}]}
+{"label":"secret-base58","text":"3zgWjK1WNWJS8to1cM1ZYnLDyGjcFtTr3tvrK8GdMo3WUiZwtx2k51UhnieRbsPtHyshbEjyRoauatWYtnxwDUpq","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"9SJs…hWuP"}]}
+{"label":"secret-base58","text":"wFupqtTJMaB2PeZN9rA2s7KFsmz9A8Ub84wM6R5UdPMJXumXZpQk3cCc8cEgApjZmx2GQ1q64JFBQZzYgwvSD7u","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"Hnkm…Rs4b"}]}
+{"label":"secret-base58","text":"66VbCpBMo4MKVPKEnJU1McfhczvGi7PBGHCpjrvGxcnAcmJeM2vi2YiB7bojfgeWgCXkd39Mgc8Do2ZvyWzkp6mv","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"7n2M…dwi8"}]}
+{"label":"secret-base58","text":"3Q3fNiKb7voGoz5Dr56c3ZEvZaz7Uph2sTBjEsPnJpKEL1oX1oHdWDHB57EZW1LXEXVVR9UTsvrMJJsD6igVTrh1","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"6qNL…SSR9"}]}
+{"label":"secret-base58","text":"5HCm2u7jdFZRtktQWMWmYq172nVuDtZhxqougkackrWaeds4jmLqGghj68hCcG9h4wBkk2vkLAaEpUoRGPfMCagF","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"2ksC…iHjd"}]}
+{"label":"secret-base58","text":"2KHyQugF2iE3MPuwGTniNWScdAbaDWHDpnA1rnBwnYbpgxQSAQE3GxWeXk4ZQvvzAx2jRJ2rFU8GiaynBUfkGhJ7","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"ERiN…AEbh"}]}
+{"label":"secret-base58","text":"4gq3Dmrb8fgHL4TinFMYEaraUAnbBuTAhFnjga6jspqJfsX4De8YwfQAV4REKcogNi1Uc68P85coC42mhE4wDU67","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"5sg2…nMMd"}]}
+{"label":"secret-json","text":"[8,40,75,113,22,170,82,145,222,56,87,163,186,156,75,182,6,7,13,77,45,90,222,56,7,125,32,6,9,25,84,254,50,141,228,124,188,146,251,58,130,145,35,130,224,211,40,201,224,52,18,234,29,6,97,20,185,81,78,77,45,144,227,85]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"4QLs…q9sr"}]}
+{"label":"secret-json","text":"[198,144,56,76,33,4,35,222,31,145,165,181,225,9,221,44,240,53,159,125,18,225,13,193,46,30,160,126,191,29,231,165,249,117,10,85,214,153,28,7,199,143,28,14,230,141,27,97,189,71,98,241,63,133,155,45,230,212,103,126,117,136,165,202]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"Hnn2…2rid"}]}
+{"label":"secret-json","text":"[240,135,46,217,225,166,204,72,98,99,239,178,58,168,15,121,245,65,33,218,112,37,144,240,45,42,168,73,238,129,175,51,209,173,241,133,62,109,147,127,182,174,134,239,210,180,35,213,61,161,93,209,74,175,1,40,102,127,97,252,60,139,40,175]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"F7W3…VXuY"}]}
+{"label":"secret-json","text":"[104,30,69,63,63,59,102,213,178,74,240,78,137,236,170,251,60,218,135,35,104,106,231,44,114,91,218,238,245,71,24,6,239,121,37,200,158,159,96,64,247,228,145,48,113,156,172,7,36,193,232,195,69,189,250,253,167,103,231,141,211,85,149,108]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"H7oa…hHuu"}]}
+{"label":"secret-json","text":"[131,166,51,104,193,190,160,217,92,171,81,40,96,17,190,26,95,172,239,187,208,36,86,104,253,142,27,207,183,250,118,185,164,107,97,225,125,239,102,29,116,4,79,120,179,200,86,242,49,143,44,207,159,161,86,182,75,190,232,28,143,111,163,32]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"C4pq…ACi3"}]}
+{"label":"secret-json","text":"[241,217,97,208,114,212,104,12,47,127,228,217,205,239,182,123,141,65,78,119,136,48,57,56,74,28,144,39,52,9,106,224,163,29,174,98,42,7,26,164,222,0,50,12,199,139,204,87,183,12,125,100,254,52,21,165,40,1,233,65,148,101,119,204]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"Byjh…P9X1"}]}
+{"label":"secret-json","text":"[46,29,112,142,252,7,160,219,73,166,214,25,230,124,193,141,254,6,183,36,135,130,34,176,0,90,104,125,239,187,3,27,44,123,161,220,51,220,69,98,234,119,4,232,241,12,63,131,117,137,172,174,180,8,48,222,216,199,22,192,153,248,92,226]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"3zeH…eoTo"}]}
+{"label":"secret-json","text":"[43,200,60,230,252,118,21,128,116,66,247,191,213,79,134,154,92,226,100,150,215,170,237,129,34,73,209,77,118,135,188,33,221,149,173,201,40,153,88,196,49,216,239,80,107,197,186,81,74,145,175,140,114,27,15,193,182,166,235,130,189,103,171,116]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"FuyU…dMZM"}]}
+{"label":"secret-json","text":"[248,148,189,6,55,130,79,192,232,240,137,56,76,239,132,157,23,245,23,77,238,27,52,96,68,19,212,214,221,28,18,166,92,53,232,36,185,38,176,165,209,214,117,61,239,135,90,178,211,66,241,169,49,38,253,234,175,15,82,55,246,122,247,239]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"7CxB…NLRU"}]}
+{"label":"secret-json","text":"[211,240,9,14,95,181,117,76,143,29,146,71,207,64,63,186,56,240,48,177,185,123,185,117,107,126,80,225,246,75,120,67,221,49,36,221,213,244,142,88,33,198,129,182,138,57,248,5,163,69,35,248,91,44,29,105,172,46,25,15,53,190,147,149]","expected":[{"kind":"solana-secret-key","format":"json-array","publicKeyShort":"FtSZ…6zeg"}]}
+{"label":"secret-hex","text":"2ecf1af205b113297baaa199f04e5f595e01a2c012dd7bd07094a74108703667e2567fca817f3c7d5a211efc2c9ef7e75fb48a75a0c5d579bf4cc6d2814e3f9c","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"GEXe…rsA3"}]}
+{"label":"secret-hex","text":"a1625b993a2c644ff21b277303632a5b84db87055c22035d865dd7d9dcd18c156700f88b0e108dfccc44ecd4240a7878569c30c3ec89ab05551b5b3c36d36575","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"7w5r…KM5n"}]}
+{"label":"secret-hex","text":"8528c523528d8cb7d83d6d30f9c9339be4c4d6fde82ea45e55222da3f369677f8c35338496e9dd77efb3a6cbe306ab9698a04b22c335763ac47ac41ac2cdd987","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"ASK8…RQT8"}]}
+{"label":"secret-hex","text":"8bf8dd144470aaf372a8475454faa781a466ced3fd5f90573c2a76fb673009080e95eff35f871b3fc6bd5ff72c16c8067f43d26863cddeb96cb37631989e140d","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"ywKA…DJUk"}]}
+{"label":"secret-hex","text":"283416a66f38f200994c4facd91393d8dd54fb033f40aeddafb6e2781ac9d1ee2fa9edbb1aac58fd8461301712b5bb49a18e055dcbe34585d9db3609ff17ea65","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"4D4S…xkRJ"}]}
+{"label":"secret-hex","text":"ab02d89f6b48ce7e1dcc5d9bb4af745dfdd8b9132a9515935d3fe524baae216f72ceced80c54a2ddc5f8ef7e264d4221dc143b09f1440e59288e0551a0165634","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"8jAP…L4L3"}]}
+{"label":"secret-hex","text":"a8d91ff858ac041cc8fa4cbfbf328814b48ad878b308cf612fd2a8b7989145cb4c618879acac320b206a29957bf471a5b6a7997fbdd5034859b23c138858d593","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"69AF…etr6"}]}
+{"label":"secret-hex","text":"beda7583b387d9e879478a202282bb2b2b26b59aab6266a1900ab513143a26497107d8d534c58444de70d47be1a2f561ac3d9f5ca21ea87fe2ecfa219e77d02e","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"8cE1…YXsB"}]}
+{"label":"secret-hex","text":"7d63f915d2a5c1b264628cd558c70837e53893e2c31b4c17eddf96ef19d398db6f9d86e2ce301a4bd273cd0d617560d65936b7179417c1b32380364832adea5d","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"8Wha…aYJY"}]}
+{"label":"secret-hex","text":"71174ef7a9d544f23a0db07c5a70ada7127eced7234173282b656caaa04afd42f61b080d36f1ab1b1ac40e6c8cd744de5df3c8a5ab9e16353d8581cc3591ccb3","expected":[{"kind":"solana-secret-key","format":"hex","publicKeyShort":"HZhC…kcz6"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=5s6et3Vva4uSjJUcLWvAWKMi2YifUHTAHReRktTXNB4QcDTxsedCopWpFHUTuUneapEbQ4Pdu4HZ5U1Sk8YEwY71\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"GuX9…RyTu"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=48T9xM9o6LPAE4xqfBrw1iNVq981MUCg6kGihhdsnQ6ErRPfnPh7voB7mzXjSF77B18zvF2BtEqBaCgSUrCvud9\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"B3Wv…4QB1"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=4CR8BjfBER8j1j3oh4vphX71jxh43xMebtigJSksVSvurxrCAghSfK2mo8PNBdhR2RknTx76PrJNUGKc6L8ibgQ2\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"ADte…tfSi"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=2dJJSLjyTVUKaM8avDftstNWbPHqers7AuXnPT1eauqLdRkREB6xte9KqaKD99v2SKACFDYLK35EbLpvGpt3gpTE\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"D7HL…PSjE"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=5wtGN2jqWP2YnFgiFupeQC5BYkAwGQ4dAPxVtHZowe6cNU4Ujq5si6bFXmzDVDJfqy8wPwA2SCUgserv7J2Q89rZ\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"F63n…cCau"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=2b5kzArLxgC5w37MsAb6qddDBUkjQaHH2tewWgiWJ93cPnzCcUgB2mRN8doNcPSCHf5UEahjE7Z9aW7KSvKXbUTG\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"8fkL…Wwft"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=3Q3iNHdYztGz7hWjuwRd4fSC1gYGwYNiPdAKeRgqkeCcWhtPvyipHCYSb2UrtSKrLJdUTSfb16X1mdmfZttYydsU\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"HmNP…kEKp"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=2qFdJrUqAVRisk573qqCQnBufKfr58RqT19SXtHBFS56Udm1vPLd18yRQ1cjoTfpRCRxZpx1PQWgHqhe7mvJaz3p\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"8tFw…Vmux"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=4CcgZZRzDjYkptqZF9NiugyYE7wfE9ebGvQm6XRVMssRNn85RnJ9FVFPeCUtoCDrucJXyb27iq8s1ySVoTa7bCUD\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"Ff3r…xiW9"}]}
+{"label":"secret-in-env","text":"RPC=https://example.invalid\nPRIVATE_KEY=45ygjSByNqScgJ15USHVXh1XqAzUuPhZNnsuGsXUWtfMQ3ny1v7y9Vro5QQWTV8rDQ9cgMch589mgJMXf9n18Yqm\n","expected":[{"kind":"solana-secret-key","format":"base58","publicKeyShort":"Gmty…Z5qq"}]}
+{"label":"address-32","text":"Bj1nMXtLxLTctHwdQYLm6Uruf9UAJsbgnsdagUtokpZo","expected":[]}
+{"label":"address-32","text":"54u9qFgeBGBRWKeb3nxbLVsbQVsjWENCTwHeX5G14dV9","expected":[]}
+{"label":"address-32","text":"S8e7HkPgsRUG9EdyF4U3CnyKks2KnPYjUshcCFJXv2G","expected":[]}
+{"label":"address-32","text":"DEiLFw1hou1CYAF94AKPYBeEpairiRYeFy5eAUpMsuKZ","expected":[]}
+{"label":"address-32","text":"8UtCLCQgjUorqRJqtVJ92HRePNxDWPDZjP5WcoZH7J75","expected":[]}
+{"label":"address-32","text":"8K9NkrraEvUY1cbTXVXzwywJjEQZ411e9TrKgtskgHbJ","expected":[]}
+{"label":"address-32","text":"8LaJqpzsgP6FJSLnxqRFH3wuvpvAb2Yq4aYBRfb25ezm","expected":[]}
+{"label":"address-32","text":"B3hhCJNXYuHh9RrUQ9n6PPgvVBXGiHMn1aysJ9DkAoRK","expected":[]}
+{"label":"address-32","text":"8jyNgA9sn2YBG1TEhuZNr332HcKmisMoUF4vkmkpNq7K","expected":[]}
+{"label":"address-32","text":"6p1JCMjhRGc3PaekTK1uK38fhTCcqQ3N46hHFgRzB2QK","expected":[]}
+{"label":"address-32","text":"7yGMdUWr7AissXi6dxnDoZQYcR9pJatMAtSDj8QVJ64a","expected":[]}
+{"label":"address-32","text":"78Ra2yFRceU1nrB3CTAB2zDxGhzE9AFJ9ZmcHs14iaQ1","expected":[]}
+{"label":"address-32","text":"Hrfr5DzFWxbxSRU8wiBjsqt2ETYsKUybwmNEXA1gPSGp","expected":[]}
+{"label":"address-32","text":"3jQBX5ffH65xGCXdwQAGZVbsKnxSXfzYxrpvCxu9zTHa","expected":[]}
+{"label":"address-32","text":"9rdA8FW1tAwZ2Nsy7ktd9M2viFihpLdxycx73YfHkfbA","expected":[]}
+{"label":"address-32","text":"6CykEdDedGeTbPkQcxoGCyJXv5mB9soa5ic3iw6ajhxT","expected":[]}
+{"label":"address-32","text":"G6TgYWdq6LDXWzPKjsS9SynhfUxAh1TB52DviAcXzVo8","expected":[]}
+{"label":"address-32","text":"3c1Z7xwb6JWsHvVBBdfucM9JvAU9DyXFU17rTwxTPPNY","expected":[]}
+{"label":"address-32","text":"CLRVJdUiW3RdKAxQc3t7JncjE3fVT9JTgAgLbBX34ASL","expected":[]}
+{"label":"address-32","text":"21hU1JJZLfojEhRe9gTFgg4DMt54f144oyidsyaw6xEN","expected":[]}
+{"label":"address-32","text":"HQ1tmPKJfeLQG2xtXCYbewFZL3Pug6xLtMKXAjB3r3K9","expected":[]}
+{"label":"address-32","text":"5orxAGDFuV9R2UtTW66dDzhNkhmT9X6Rq1xC8x2MFfQ5","expected":[]}
+{"label":"address-32","text":"7Ku3MhKQVXLgqXA4JRddPMbUspCuxY14rhZ6yeCYv7QC","expected":[]}
+{"label":"address-32","text":"4EiKN75MuB348wpQpTJUT6MUBmRfUTNrEEiiVEJXdsVS","expected":[]}
+{"label":"address-32","text":"GZmQa1WTnyS7CsmxM1LcBnzAT8V69eAVq5VyegL4AisF","expected":[]}
+{"label":"address-32","text":"54tvG7W63rxDVNuC33LHF4jbCyqehPhaKHxYN7BRhhhg","expected":[]}
+{"label":"address-32","text":"GT3xoABLnSBq4Hnh83SsuSs9FTW74foitMcYbfa89MJK","expected":[]}
+{"label":"address-32","text":"DSSnuFd7JVx46MqeV5wHbw5c61n8MT2ja5siuDiTHzy4","expected":[]}
+{"label":"address-32","text":"55QxfMvWty9cCexLo2G579rDSP4hZyCSspDFVWK79Ukk","expected":[]}
+{"label":"address-32","text":"5oM3cWSMg5iiA3FHVse9oeHGyUvvudjq7WMy155t1G9M","expected":[]}
+{"label":"address-32","text":"9RWoFodQVKcVHrAr2jyndMCTPaLS3LePrZEyGqxuKmi","expected":[]}
+{"label":"address-32","text":"ASEzXe6BUcF3L1cn9Jkj76KGSfZ94Lc35uZEqdVx317E","expected":[]}
+{"label":"address-32","text":"5UFxDxxV9YtU9asgfNtxZD4Bjx4hvubSAw6YDbTNtvUL","expected":[]}
+{"label":"address-32","text":"EoRSABDAbBE8mcaxtTKqHpgc2TWQXR9c4QTwHt2QaDwX","expected":[]}
+{"label":"address-32","text":"7NBH3n4PWrDrhFytJUiXs17qA4Hh1KoyRXbR8U6qAmMg","expected":[]}
+{"label":"address-32","text":"6KXA13TB2BysUdUQHS9D3hS3bcraKd1ukpJ2coZfmfFh","expected":[]}
+{"label":"address-32","text":"FdV7pHHwv4iePJV12Ue8g1nUME1GYPGnz7G6RuTaq52C","expected":[]}
+{"label":"address-32","text":"BxNkD6hz5NrusTQyXcuUsgxvKwTcS4oGMzjZuQ7Zpru","expected":[]}
+{"label":"address-32","text":"A2v6TvtZJMCDDKm47MtAMAKR3ZN5vJwb6qV8UaD8n6T","expected":[]}
+{"label":"address-32","text":"8NkcjrgV5mBh2wpU6nVsKssnJrmaAbqUzqAjrJpdgUgc","expected":[]}
+{"label":"signature-64","text":"2nBAJNhVNWDWMefG2jyQRUt54LANh43zBw2vGDWccDiPdhPrCdAcH35naXCxvnNGVboX3r8KyhDEhWu3aYVrPPCk","expected":[]}
+{"label":"signature-64","text":"37KAnBd3qJtA5sDMX8dwPnGXjKqT1KqhpvPxcnR8VCM4EKjdqN86MLkPsLd4Yj5yD57WwfNE1HvKqXXqWFGqL8Ms","expected":[]}
+{"label":"signature-64","text":"3WaZca2of4QF39fDxRaHNbm7uS1f9bxZNhjgyGnxC4iUQ1tFJ6bHqTC488zwdWfaNzfmX9fWQwrQhb2cLzMbeqYR","expected":[]}
+{"label":"signature-64","text":"3KLbfgqvokXZX71SH3RyNizM1ci2eV1ZDCTbiT4qRq22w2P7DLuoMbiTL2Qc7QEv6cvQ1nSfJpKiSigJf2TgLGY4","expected":[]}
+{"label":"signature-64","text":"3FpXvYd1XZf5Pe2WHktoJDnxeZGMfWSKYaHJjm7FyLJRuzgf8F2m2mWrdUfvMJ8FkEmdicqr55iELygNuou4AEW7","expected":[]}
+{"label":"signature-64","text":"4eB9vapBFM3FGkeZfVfaFWdCvHup6Xbdy78MfoY7ra1Ag1NQbr6eqpw49hwsN8FEZVRSkRqxx9rAWfJEbUXA6Kp2","expected":[]}
+{"label":"signature-64","text":"5d6DBkeh9ZyHWYrybZk2r9xLQxXJUVoCgJ622DkpuLQTss85cgCb2pZJNttUgW3zGovAcaTmschTj1EQWqD8vPAo","expected":[]}
+{"label":"signature-64","text":"4SMBjipz6utr7YhwNvqGXhojD9E8TGhTuNGBQNsUEJHT47Ggw5Ed4ZZ3AM7R8Vi2cGn5TieYiVBvwiPqXfCAA8tn","expected":[]}
+{"label":"signature-64","text":"4YitHXekoEpXnY8bpRrUYzSmqJ7TqrcBp1wfvsBQBpNAWX8AD5WiNzH16SVEqfYxsD7Xeka2P8AuTQ1CERRWCwQs","expected":[]}
+{"label":"signature-64","text":"5CG8MHBpL5zpWJjrCE7e6PqezKjSNyYYuPkTCSziWne8nR8mmLxLJTBWmCW9DaFUubYcypV3dPPBipWmKxwmGCT8","expected":[]}
+{"label":"signature-64","text":"5mt4jRACKuk89yUJtbxPQPy6TVV2yMmsqvm2FhecVftRQX3zKwsfLUYro2wwqrbSqc2ipTXpw1cmbff8txq4K5UX","expected":[]}
+{"label":"signature-64","text":"5zKMVZw8rnLT578eFKL7yzLNh2E5q2KDHumv5CtLZiczDitZ37uobo9jU5jAuAtJxio7Ta4PApHFirZx5HAtJnrV","expected":[]}
+{"label":"signature-64","text":"Di6EsNbhLaLUV9BpUurCpBeSyPpUiuSbKSxHvKYyGZTzxdbYRZZxNc67HNruuYZUtqv4ZD9haKcUTeVM3qjyS3v","expected":[]}
+{"label":"signature-64","text":"34R2juViQHJYNuCpkVf2q5KLsPxcbBC4mRdvP57BbPjEFJngCuSuAEpWiVL2wBdnmCtt5csMw5QK6n5VbXp3coK2","expected":[]}
+{"label":"signature-64","text":"5ZHpLseHmm2c9Ts4pMYLNfXgNHjigRY7y7xbnD1guVWT3fchP9PJW8ZEvHM1c9EefyffFPiK3xJFdburnUb6vXfT","expected":[]}
+{"label":"signature-64","text":"2D4LW9pALdUmHJqvraPtR8uK3LcXYLBUSrivTBukyPzHkGYJ3e9KP8P4dVzyKA3Abv9hmog3fzMBeFREQq6T2HBS","expected":[]}
+{"label":"signature-64","text":"2CATi81NahChihnGVtspVe3bNANQ5H6e4Px2q68efa8Eu6Be3z734imRE6MpyoYB8z4AhzsHHQ7LQVSRttq7WLhg","expected":[]}
+{"label":"signature-64","text":"5sV3wtS7A23HysCN7q8AnC4HUZRiT5GxhEAtSrDmYPNXgkWNPEPp7GxHg7pfvx86aLEsehTzSeXJ6KM8RkRTfCKW","expected":[]}
+{"label":"signature-64","text":"4Vhf3x5soyQR3PYLdofGXpbH4kbW2TTyVhiLirn4YHsvDwP9GtUu4aPeeG6C2WG2g5onpm9vWAUqYdHNwh5Uow9y","expected":[]}
+{"label":"signature-64","text":"2GGTvDwnRLeoMh57ggBBSx1WEKwHr5Uq5LzpAjexSe7z5g8EeGMVZ2DFY84SnGyyVA1YQZVzGAvJiFhrX8keiuVC","expected":[]}
+{"label":"signature-64","text":"3Mp1tE6pJ19hLEWWWceBLNgaAQ95YegYk44Y5FhDwTDVqYbEFUMAtQdj5cnbPBrkJcRJNgkNUoQdLCrbiAZa6eKm","expected":[]}
+{"label":"signature-64","text":"2YxjwhGj47yUm9uiAZvEBaW3Y81bSrmdnXPLhsH5bAKdQPNmzNgcRtZzj8U1jeWmRBw3PbtAjm1wkV7FxbNEd1sk","expected":[]}
+{"label":"signature-64","text":"4Jfa3mznRKp86gMB5pgzmYeVJvLDdvTS3URztbbhkVCgVjaDw8NkxEa4RoXZmyGi21yfS7FqezWjoUMZxXfchLUH","expected":[]}
+{"label":"signature-64","text":"9e3YHGs1u6P3nWvrytpiZWNMLbdYaU4XanKJ3jiiPGk87cmUTTxUyExq7FtrUe1FaejQoFqGPFYSRgiqE4tMQBK","expected":[]}
+{"label":"signature-64","text":"qwiGGmm3mh8Qo5pG2z2nfthM1u3JoECo71XTe6U9cKNk7duUcUezmUmJriBxnpkhZTAKzK1LTDyYe85eBpT6oHk","expected":[]}
+{"label":"signature-64","text":"2rS1X9oxHoR8s9Q151m5XKtM3kAkWSXSBhREJtveHrCBGkhWLzQ3EY486CcXaGFKYQdGKYEcRpyZXCeAuoDfAye","expected":[]}
+{"label":"signature-64","text":"JZaQxyufHQ4ME65dbRywV4UsnNkDVyTgRo46FwoWXjxJREH1yb1hRF9bgLRhn2uytPzSjuwL8TNqbr9isD9CjLQ","expected":[]}
+{"label":"signature-64","text":"321giUMFMKyVnAdh1u8NLbPn2qZD9bQ6MpUTV7wzTs3G5eptFiV8UFq19TmLengmQJ3MCyLeFMQBFwyyWNB7iF6h","expected":[]}
+{"label":"signature-64","text":"2UcG3F5V65ZwpYTtHktZsnHzLnuHBnSDWHgLd73PRcg5Eac42crdCjfRiAQANsmJyQJ4brWBJfzAV6UubMeL2s7q","expected":[]}
+{"label":"signature-64","text":"54u4pJ9Zg5WjTG21Dzm4EfaYhDeryQLw16oLBPwZn69tpW5Ea1bBZup2a4JaeSEfVBvicCco4mi5tADoBC9MekUF","expected":[]}
+{"label":"signature-64","text":"3aLxEdNgN6t5ikKJK1h33gSZZjD8XyRVKzPyB5ZviG1gXWgXSbuFJ14zsqf5srzyCnCvKi6zqDTybektcACv5pg8","expected":[]}
+{"label":"signature-64","text":"2UHTQYsgP9woKi5sfEDf3gPTSFN2c3c3gC9RQLiz6tyHMvd4LmJn9LsWsBsAdjCThaAsDsr7KgtPYzPWUW8xiLia","expected":[]}
+{"label":"signature-64","text":"5N6d5NyE8ybee2paXqVfjwzM1ABuyBwfwGEfEdDTwEeHNzCTjgW3boMd7Mg9eEW4tBtgEKjLDp4fT7z5cqa3WKb6","expected":[]}
+{"label":"signature-64","text":"u3FJpk3vcNZ8R6bR5zdiUxXfi2mcbYcv7ZgWfJUxaDT4HX2bt3SMX6oz5q3YvhkF4yGbUdZeN4bmNuUxMvoo6WQ","expected":[]}
+{"label":"signature-64","text":"26CcaSqYDbqzeYJBs3DwxdNXhTTpPfBKF8SVxYvVgETNXqVDydc4giAJr5aZXHuotV1dJt2Ef2F1kJuhPRvqf3tY","expected":[]}
+{"label":"signature-64","text":"3umY9haaKzy9ZDHtjsKJGUXyDwzoLC2WB5c3tWR48ovfmcfABs42VVtw4ayrYcxXB41DkgHAyf8BGewpGA9Yc3aR","expected":[]}
+{"label":"signature-64","text":"3aamM9EGA9SGacAR7MqXHSHEGcF71KVovf3n3zvTHQojv49z4XDyu8mW6YnmcbnDCyAFTHTyu4ombKrPcGgpxFuV","expected":[]}
+{"label":"signature-64","text":"5aiwopAJrLaefQ3ER36Yj5Mn8gtawyNu8fw8rx7whXsNiW2btK92WArEbPtGLMrbhrWxfm9EyE86EsL593B14iEM","expected":[]}
+{"label":"signature-64","text":"37ZECNqdgNjpeyYrgCLpGexAJ2VcLKrC2es26miBGQB3bXX1N2WbRLzjPEWkFUkTz5tgRDzRcREqjzMhZgM5KQsa","expected":[]}
+{"label":"signature-64","text":"27o1aUZCQDmjDiHnaqoKBT49mqC8wEXqwRLv2RMUHinrwvNvsyLKP4zniLMukme36eZrZV3z4dtCUCCd4nWs8CLT","expected":[]}
+{"label":"random-64","text":"5vBPQsjk4h5SCscTfF7YNvf8p7wZSnXz8Y7Nwb76tKXQnTU8PEgVi9YaQgdUETkfWqu6c34ekoV6X2weiAyWAor","expected":[]}
+{"label":"random-64","text":"4Rz1W5yAP9xGUXfuV8ppRjwNEyvoYKS3AvdCDnWwXDvVknAhZKAJaQJEjHyN8yXWxTfhKsrkmS3oZSRSsiVBEWJt","expected":[]}
+{"label":"random-64","text":"64jNiRytzRGp2fMbzNbhi9QTQs8kjfAQjGoaXXztHbRv6sCMuZLDw78EEvaZ14bqPh2VdiWC8btyehjwTeeEuU5P","expected":[]}
+{"label":"random-64","text":"5koMqLN6vnpoFH5hFcAJzTzKELJCtB27EEcEoCezv9KEqi1RdsAjspK53K5mGrEdmSbkzoftpFad3AoWR1ZdgPbp","expected":[]}
+{"label":"random-64","text":"56CQzkatE1pH4zgk5BEzSKe93siGPQS6hWUafucbEhU78d8chnqS13k2XQ7EHAKmizUjbRCup5fcKza57jwn9hLW","expected":[]}
+{"label":"random-64","text":"HT18zhMqKmmAvfmDigFa4obT3L22EGntyoMNRJ76425skXo2aEFfWCvDmUjN7jHrGuTZzpWE3FiEqoshJPUj4wr","expected":[]}
+{"label":"random-64","text":"2hEznfgtwuD2RSDyzxs2dckN2akVoGE5Zzth4VFJVPVujTW7EQF16hJ53MQaJav6dgCE1rdqLRtEPqUohcFpr57G","expected":[]}
+{"label":"random-64","text":"5QVqehMEHu2ojXUJ38HBH9cC2Bj1vvK49ps1rRdvS2VQi7iN2QDi9YfBM7Ps5XnN9ZqRgBrBDLSj2z3wNRDecPmi","expected":[]}
+{"label":"random-64","text":"5k6jDfvKiFbd9Jr15b5BoicMNDcwDrkhNu5BHFNXmGPQcHbiLmCFyN4Fj41myF937sBHydyA4AUzGtDzuhQXvtcW","expected":[]}
+{"label":"random-64","text":"3LTCQGzxi1AX7vhKZPxkRZ4p38mPRPCPcpcnnq2G9E5rooRfYnays1swm6YBNBDMuvXMarEMHKBhUSJ3us8gxuv1","expected":[]}
+{"label":"random-64","text":"28fjQ2DBsbTqGebN4hxUssyk97Cq4GZGVYyuTcofudjkaFGeksF2DQq4Y47fmScaQovoE3M6R6FfMHe8WQgenqs5","expected":[]}
+{"label":"random-64","text":"5RMmLMsE5agMUKrLChLwkx68yV9qrvgmFXKxBG8jZ8FHwNHFz3oG9QGJ8Ug2Y6niTFs2NJRe9BA7XvJu87Azsems","expected":[]}
+{"label":"random-64","text":"3sTiB3E2fPze9gT7L5ESta5BfPbHLzfsbKVYjqJEBrsKEAaPXdvTGqdCoJ2atW2KGNR2wGLdczfdFZ5r99f16LLG","expected":[]}
+{"label":"random-64","text":"fUVcrKAQURGzbzwfQtV9zAcCNZ717fRZtgqPEn4juDNZo3tVrFkms72Ju1Tyi62u3pgyrm1sKyQNabotZU7BLBD","expected":[]}
+{"label":"random-64","text":"55b3CjSeWAvQVu43mNSxgUzRDBNaaGjcS8Yqu9C87NuvjU61fY8RPuVBJqVF8Fch6cXGuWdkVu7JddyfJUsK5xX3","expected":[]}
+{"label":"random-64","text":"3WYGow4ZxDA9Xqd41UA7ENNnvUj3bzutdpFdkKYi8RML2rxvqW6LpdxtXqJwCjyh6Ue19LTuvUZfC2b1vovv7Ppm","expected":[]}
+{"label":"random-64","text":"2YBNY581Qj6qQrqJ4rWqo25Pd8sKWoPSznNaZgsimvUKcHbbW9rrBanEEvCFqMCcg63BzyXcfRgwkgQmX6Kbj1eG","expected":[]}
+{"label":"random-64","text":"2mUBggwU1sUNrACz46LKh9JmXNAdtRG7NhqykmgpwXewey2tBkFc7dhSvzjqEhwGEEPDPApKFXhQwPDgswXi2Rtg","expected":[]}
+{"label":"random-64","text":"2g1MeiWatr21fa1uRno1dE9Hh84ADSmbJQHGgkQMYRzeyT3aLGZ5Wzskg2VP9jfbHxBYbUEKphpwu1wBHV84FFCn","expected":[]}
+{"label":"random-64","text":"61P7ZCJdgzW37bD7nxcD2NAtKLmiY8J1UrzdMi3L8Znvgo1kkLwxdQVdBLhXjeGbDFcPDecwDpPr85wuH7ChEoEt","expected":[]}
+{"label":"seed-12","text":"address kiss distance brush extra height skin fame change casino century action","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"kick piano park dumb obscure helmet little away tenant object country divorce","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"artefact celery action winter aim satoshi snap make brown funny reflect pretty","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"breeze fall same hazard scrap spawn bridge east toy goose purity month","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"click punch health parent stone panda galaxy snack sell lift october insane","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"table dilemma impose viable caution jeans flame eight hybrid slab sword roof","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"recycle crew scare floor warfare fortune boss school excite apart sunny eight","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"hybrid news boy endorse despair method nominee cereal mammal royal swamp limit","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"tiny diet art kidney olympic father palm once blame another hotel video","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"ceiling small fine chicken uncover denial photo cook loyal setup layer clip","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"waste program ring roof range brother slight bike height settle wrist crash","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"iron diet sausage rifle rhythm follow catch seat civil crouch room remove","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"purchase awful around choice sail kiwi couple kite brain vivid target protect","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"industry ride summer recipe orphan nose august warrior horn pupil offer swap","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"such stumble regular ball unhappy celery neither aunt reward resemble hover divide","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"acid patrol version target brush spoon clump feed pyramid mouse outer city","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"receive knife parent april nurse milk ramp penalty mule mixed grief spoil","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"soap swap note design undo toilet scout duty memory depart recall orient","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"sausage accuse level mirror improve burden bachelor bonus skin drive wash spider","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-12","text":"reduce scrap often inner subway inspire chronic dinosaur route unable success wild","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-24","text":"bird noble opinion crouch sustain wheat divert erode ice slide adjust between rifle wagon amateur olympic jazz wide divert mean act amount normal glimpse","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"moon poet crystal harbor arctic equip scissors cereal strategy snack common brush page soda tornado industry fan bag guitar repeat split mail belt retire","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"phone salt churn budget picture tortoise unknown square winner galaxy library damage ring avocado cream open cricket oven basket easy orbit execute top oxygen","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"update canvas umbrella hamster atom rocket swamp ribbon venture clock enter concert coach jealous poet panda object engage feel squirrel flower amateur quantum taste","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"clarify estate game ask cat sample onion cake enough toss toast clip equip spring fancy fluid orange gas deal blast tobacco provide moral parrot","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"squeeze whisper guilt demand pipe oval believe garden raw story swift toast bronze spare tornado bulb pottery believe fever hurry crowd region alert unusual","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"jacket soul fluid vessel daring dumb few firm cabin duty clerk stable limit desk above napkin endorse kick foot ecology fossil obvious survey blind","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"narrow brand know noble razor vintage pill height since level deposit main state dismiss crumble knock credit law indicate spare copper much private number","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"inside together approve urban news blast arrive soft another afraid order walnut clay betray test veteran matter salmon myth popular swallow steak example cruise","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-24","text":"review behave team intact silver save torch rival forest vocal dinosaur interest today orange company inch flight leg kidney quality broken impulse defense ahead","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":24}]}
+{"label":"seed-15","text":"drama grain artwork black high size fish brisk airport chronic win congress ancient leave world","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":15}]}
+{"label":"seed-18","text":"hold next produce core quiz punch endorse real slight keep verb online write vehicle able syrup ecology document","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":18}]}
+{"label":"seed-21","text":"help pistol volume sing twin warm cheap early pride fan giggle grocery wish novel elevator undo bullet lucky version pony relief","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":21}]}
+{"label":"seed-numbered","text":"1. gain\n2. gather\n3. toss\n4. move\n5. raw\n6. range\n7. fatal\n8. kite\n9. silver\n10. mandate\n11. surprise\n12. acquire","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-in-note","text":"my backup:\ngain gather toss move raw range fatal kite silver mandate surprise acquire\nkeep safe","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-upper-commas","text":"GAIN, GATHER, TOSS, MOVE, RAW, RANGE, FATAL, KITE, SILVER, MANDATE, SURPRISE, ACQUIRE","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-numbered","text":"1. push\n2. siege\n3. hero\n4. valid\n5. birth\n6. abuse\n7. stand\n8. squeeze\n9. expect\n10. amazing\n11. pact\n12. inmate","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-in-note","text":"my backup:\npush siege hero valid birth abuse stand squeeze expect amazing pact inmate\nkeep safe","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-upper-commas","text":"PUSH, SIEGE, HERO, VALID, BIRTH, ABUSE, STAND, SQUEEZE, EXPECT, AMAZING, PACT, INMATE","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-numbered","text":"1. genius\n2. crumble\n3. bounce\n4. eager\n5. tag\n6. fever\n7. other\n8. east\n9. install\n10. asset\n11. casual\n12. boat","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-in-note","text":"my backup:\ngenius crumble bounce eager tag fever other east install asset casual boat\nkeep safe","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-upper-commas","text":"GENIUS, CRUMBLE, BOUNCE, EAGER, TAG, FEVER, OTHER, EAST, INSTALL, ASSET, CASUAL, BOAT","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-numbered","text":"1. peanut\n2. olive\n3. express\n4. rocket\n5. imitate\n6. dash\n7. grit\n8. identify\n9. impulse\n10. cherry\n11. design\n12. column","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-in-note","text":"my backup:\npeanut olive express rocket imitate dash grit identify impulse cherry design column\nkeep safe","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-upper-commas","text":"PEANUT, OLIVE, EXPRESS, ROCKET, IMITATE, DASH, GRIT, IDENTIFY, IMPULSE, CHERRY, DESIGN, COLUMN","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-numbered","text":"1. shell\n2. phrase\n3. actress\n4. scan\n5. shallow\n6. then\n7. swift\n8. initial\n9. panda\n10. pluck\n11. pattern\n12. scrap","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-in-note","text":"my backup:\nshell phrase actress scan shallow then swift initial panda pluck pattern scrap\nkeep safe","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"seed-upper-commas","text":"SHELL, PHRASE, ACTRESS, SCAN, SHALLOW, THEN, SWIFT, INITIAL, PANDA, PLUCK, PATTERN, SCRAP","expected":[{"kind":"seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"possible-seed","text":"wrestle wolf lab mosquito awful fire genre menu limit dose knife guess","expected":[{"kind":"possible-seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"possible-seed","text":"office they material transfer benefit total bridge chronic noble beyond chief demand","expected":[{"kind":"possible-seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"possible-seed","text":"absurd rude broccoli there width depend focus fun disorder nominee mutual morning","expected":[{"kind":"possible-seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"possible-seed","text":"tiger basket shed minor tomato improve remind doll once radio agree update","expected":[{"kind":"possible-seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"possible-seed","text":"tortoise erase crane napkin credit grit brisk can budget achieve clog fruit","expected":[{"kind":"possible-seed-phrase","format":"mnemonic","wordCount":12}]}
+{"label":"prose","text":"Just aped into this new coin, chart looks clean and the dev seems based. Lets see if it bonds.","expected":[]}
+{"label":"prose-bip39-words","text":"about above absent absorb abstract absurd abuse access accident account accuse achieve acid","expected":[]}
+{"label":"known-program","text":"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA","expected":[]}
+{"label":"eleven-words","text":"minimum drink sea mask merit payment increase history auction nasty cook","expected":[]}

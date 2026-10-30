@@ -1,0 +1,206 @@
+<!doctype html>
+<!--
+  review.html
+  PURPOSE:  Extension-owned Transaction, Approval & Connection Review Gate window.
+  ACCESS:   chrome.runtime messaging (`review:get`, `review:decide`).
+  NEVER:    No external scripts/fonts, no network calls, never handles secrets.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aegis Request Review</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .top-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 11px 16px;
+        border-bottom: 1px solid var(--border);
+        background: var(--bg-panel);
+      }
+      .review-main {
+        flex: 1;
+        padding: 13px 16px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .sticky-footer {
+        position: sticky;
+        bottom: 0;
+        background: var(--bg-panel);
+        border-top: 1px solid var(--border-strong);
+        padding: 11px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+      }
+      .danger-ack-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 8px 10px;
+        border-radius: 3px;
+        background: #140b0e;
+        border: 1px solid var(--danger-border);
+        border-left: 3px solid var(--danger);
+        font-size: 11.5px;
+        color: #fecaca;
+        cursor: pointer;
+      }
+      .danger-ack-row input {
+        margin-top: 2px;
+        flex-shrink: 0;
+        accent-color: #ef4444;
+      }
+      .footer-btns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      .col-hdr-out {
+        font-family: var(--font-mono);
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        color: #f87171;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      .col-hdr-in {
+        font-family: var(--font-mono);
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        color: #34d399;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="brand-row">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <path d="M16 2L28.2 5.8L27.2 17.2L16 30L4.8 17.2L3.8 5.8L16 2Z" fill="#0E131B" stroke="#10B981" stroke-width="1.6" stroke-linejoin="miter" />
+          <path d="M16 4.1L26.2 7.2L25.4 16.5L16 27.4V4.1Z" fill="#141C27" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M16 7.8L10.3 20.6H12.8L13.95 17.8H18.05L19.2 20.6H21.7L16 7.8ZM14.75 15.6L16 12.55L17.25 15.6H14.75Z" fill="#F1F5F9" />
+        </svg>
+        <div class="brand-title">Aegis</div>
+      </div>
+      <span id="expiryTimer" class="pill pill-neutral mono" title="Auto-reject countdown">5:00</span>
+    </header>
+
+    <main id="reviewContent" class="review-main">
+      <div id="loadingBox" class="card mono" style="font-size:11.5px;color:var(--text-muted);">
+        Checking request...
+      </div>
+
+      <section id="verdictBanner" class="verdict-banner hidden">
+        <div>
+          <div id="verdictLabel" class="verdict-label">UNVERIFIED</div>
+          <div id="verdictSubtitle" class="verdict-sub"></div>
+        </div>
+        <span id="rpcStatusPill" class="pill pill-neutral"></span>
+      </section>
+
+      <section id="contextCard" class="card hidden">
+        <div class="meta-grid">
+          <div class="meta-key">Site</div>
+          <div class="meta-val">
+            <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+              <strong id="originHost" class="mono"></strong>
+              <span id="siteBadge" class="pill"></span>
+            </div>
+            <div id="siteReason" style="font-size:11px;color:#f87171;margin-top:4px;" class="hidden"></div>
+          </div>
+          <div class="meta-key">Method</div>
+          <div class="meta-val"><span id="methodBadge" class="pill pill-neutral case-exact mono"></span></div>
+          <div class="meta-key">Wallet</div>
+          <div id="walletLabel" class="meta-val mono" style="font-size:11.5px;"></div>
+        </div>
+      </section>
+
+      <section id="approvalCard" class="card deep-card-danger hidden">
+        <div class="section-hdr-row">
+          <div class="section-title" style="color:#f87171;">Approval Request</div>
+          <span id="approvalCountPill" class="pill pill-danger mono"></span>
+        </div>
+        <div id="approvalDeepList" class="approval-list"></div>
+      </section>
+
+      <section id="connectCard" class="card hidden">
+        <div class="section-hdr-row">
+          <div id="connectCardTitle" class="section-title">Connection Details</div>
+          <span id="connectKindPill" class="pill pill-neutral mono"></span>
+        </div>
+        <div id="connectMetaGrid" class="meta-grid"></div>
+        <div class="perm-stack">
+          <div class="perm-box">
+            <div class="perm-hdr" style="color:#cbd5e1;">Can</div>
+            <ul id="connectAllowList" class="perm-list"></ul>
+          </div>
+          <div id="connectProtectWrap" class="perm-box">
+            <div class="perm-hdr" style="color:#34d399;">Cannot</div>
+            <ul id="connectProtectList" class="perm-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="findingsCard" class="card hidden">
+        <div class="section-title">Warnings</div>
+        <div id="findingsList" class="finding-list"></div>
+      </section>
+
+      <section id="balancesCard" class="card hidden">
+        <div class="section-title">Balance Changes</div>
+        <div id="balanceZeroApprovalNote" class="notice-bar caution hidden" style="margin-bottom:8px;font-size:11.5px;"></div>
+        <div class="balance-cols">
+          <div class="balance-box">
+            <div class="col-hdr-out">Sending</div>
+            <div id="sendList"></div>
+          </div>
+          <div class="balance-box">
+            <div class="col-hdr-in">Receiving</div>
+            <div id="receiveList"></div>
+          </div>
+        </div>
+        <div id="authorityBox" class="hidden" style="margin-top:9px;">
+          <div class="section-title" style="color:#f87171;margin-bottom:5px;">Authority Changes</div>
+          <div id="authorityList" class="finding-list"></div>
+        </div>
+      </section>
+
+      <section id="messageCard" class="card hidden">
+        <div class="section-title">Message</div>
+        <div id="siwsDomainNote" class="notice-bar caution hidden" style="margin-bottom:8px;"></div>
+        <div id="messageTextBox" class="code-box"></div>
+      </section>
+
+      <details id="techSection" class="tech-details hidden">
+        <summary>Programs &amp; Instructions</summary>
+        <div id="techBody" style="margin-top:9px;display:grid;gap:9px;"></div>
+      </details>
+    </main>
+
+    <footer class="sticky-footer">
+      <label id="dangerAckWrap" class="danger-ack-row hidden" for="dangerAck">
+        <input id="dangerAck" type="checkbox" />
+        <span>I understand the risk and want to continue</span>
+      </label>
+      <div class="footer-btns">
+        <button id="btnReject" type="button" class="btn btn-danger">Reject</button>
+        <button id="btnApprove" type="button" class="btn btn-safe">Continue</button>
+      </div>
+    </footer>
+
+    <script src="review.js" type="module"></script>
+  </body>
+</html>
