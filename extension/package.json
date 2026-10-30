@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@solana/web3.js": "^1.99.0",
-    "@types/chrome": "^0.0.300",
+    "@types/chrome": "^0.3.6",
     "esbuild": "^0.28.2",
     "playwright": "^1.64.1",
     "typescript": "^5.6.0",
