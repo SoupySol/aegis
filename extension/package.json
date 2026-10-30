@@ -17,7 +17,7 @@
   "dependencies": {
     "@noble/curves": "^1.9.0",
     "@scure/base": "^1.2.0",
-    "@scure/bip39": "^1.6.0"
+    "@scure/bip39": "^2.4.0"
   },
   "devDependencies": {
     "@solana/web3.js": "^1.99.0",
