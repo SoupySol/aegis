@@ -7,7 +7,7 @@
 [![Backend Servers: Zero](https://img.shields.io/badge/Backend_Servers-0_(100%25_Local)-0ea5e9.svg)](docs/NETWORK.md)
 [![Windows Cleaner: Offline](https://img.shields.io/badge/Clip_Guard-0_Network_Code-f59e0b.svg)](docs/BUILD.md)
 
-[**Why I Built This**](docs/NARRATIVE.md) | [**Quick Install**](docs/INSTALL.md) | [**Verify & Hash Check**](docs/VERIFY.md) | [**AI Agents (AGENTS.md)**](AGENTS.md) | [**Fork & Extend**](docs/EXTENDING.md) | [**Audit with AI**](docs/AI-AUDIT.md) | [**Build Locally**](docs/BUILD.md)
+[**Why I Built This**](docs/NARRATIVE.md) | [**Quick Install**](docs/INSTALL.md) | [**Agent Skill**](skills/aegis-wallet-guard/SKILL.md) | [**AI Agents (AGENTS.md)**](AGENTS.md) | [**Fork & Extend**](docs/EXTENDING.md) | [**Verify & Hash Check**](docs/VERIFY.md) | [**Build Locally**](docs/BUILD.md)
 
 ---
 
