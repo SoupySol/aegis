@@ -25,7 +25,7 @@
     "esbuild": "^0.28.2",
     "playwright": "^1.64.1",
     "typescript": "^5.6.0",
-    "vitest": "^5.0.5"
+    "vitest": "^5.1.0"
   },
   "overrides": {
     "stream-json": "^3.8.0",
